@@ -1,8 +1,6 @@
-<h1 align="center">Distributed File Storage System</h1>
+<h1 align="center">File Storage System</h1>
 
-<h3 align="center">
-Google Drive-like File Management System using Spring Boot
-</h3>
+
 
 <hr>
 
@@ -39,39 +37,6 @@ This project simulates a distributed cloud storage system capable of handling th
 
 <hr>
 
-<h2>Technology Stack</h2>
-
-<table border="1" cellpadding="10">
-  <tr>
-    <th>Technology</th>
-    <th>Purpose</th>
-  </tr>
-  <tr>
-    <td>Java</td>
-    <td>Core Programming Language</td>
-  </tr>
-  <tr>
-    <td>Spring Boot</td>
-    <td>Backend Framework</td>
-  </tr>
-  <tr>
-    <td>Spring Data JPA</td>
-    <td>ORM & Database Operations</td>
-  </tr>
-  <tr>
-    <td>PostgreSQL</td>
-    <td>Relational Database</td>
-  </tr>
-  <tr>
-    <td>Hibernate</td>
-    <td>Entity Mapping</td>
-  </tr>
-  <tr>
-    <td>Maven</td>
-    <td>Dependency Management</td>
-  </tr>
-</table>
-
 <hr>
 
 <h2>Core Features</h2>
@@ -85,7 +50,8 @@ This project simulates a distributed cloud storage system capable of handling th
 </ul>
 
 <p><b>Implemented Functionalities:</b></p>
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 44 08 PM" src="https://github.com/user-attachments/assets/01325860-5e7c-45de-9f29-71d88b82789b" />
+<img width="962" height="655" alt="Screenshot 2026-05-19 at 6 44 08 PM" src="https://github.com/user-attachments/assets/fca1bb8c-f58d-4d2b-b8a0-8a85805adf85" />
+
 
 <ul>
   <li>Create User</li>
@@ -108,7 +74,8 @@ Users can organize files into folders for better file hierarchy and management.
 </ul>
 
 <hr>
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 44 23 PM" src="https://github.com/user-attachments/assets/6237a00f-7769-4498-888b-1143fd2aab7b" />
+<img width="948" height="662" alt="Screenshot 2026-05-19 at 6 44 23 PM" src="https://github.com/user-attachments/assets/7bd2dfdc-f72b-492e-abf5-0946ff9ce229" />
+
 <h3>3. File Management</h3>
 
 <p>
@@ -125,7 +92,7 @@ The system supports file creation and metadata handling similar to a cloud stora
 </ul>
 
 
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 44 47 PM" src="https://github.com/user-attachments/assets/d0f27cbf-117c-48f1-9afc-33b20eb3e93c" />
+<img width="945" height="661" alt="Screenshot 2026-05-19 at 6 44 47 PM" src="https://github.com/user-attachments/assets/cc0e49a5-c10a-4bf7-b495-b1eaf65dab4a" />
 
 <hr>
 
@@ -144,7 +111,8 @@ Every file modification creates a new version, ensuring consistency and recovera
 </ul>
 
 <hr>
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 45 09 PM" src="https://github.com/user-attachments/assets/1f7b278a-49d1-4dcc-91c9-3562c6b40871" />
+<img width="959" height="679" alt="Screenshot 2026-05-19 at 6 45 20 PM" src="https://github.com/user-attachments/assets/bf33ce89-537f-43fd-9931-bda0124d21cc" />
+
 
 <h3>5. File Sharing & Permissions</h3>
 
@@ -166,10 +134,12 @@ Files can be shared between users with controlled permission access.
   <li>View Shared Permissions</li>
   <li>Authorization Validation</li>
 </ul>
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 45 46 PM" src="https://github.com/user-attachments/assets/3ba7d753-0a24-42be-8662-3e52636734d1" />
+<img width="818" height="659" alt="Screenshot 2026-05-19 at 6 45 46 PM" src="https://github.com/user-attachments/assets/53d5c42c-bba3-4ffe-ac13-2bc4a836a9d5" />
+
 
 <hr>
-<img width="1680" height="1050" alt="Screenshot 2026-05-19 at 6 46 08 PM" src="https://github.com/user-attachments/assets/4c4d10b7-7349-474c-919f-998f2e8d90f8" />
+<img width="954" height="682" alt="Screenshot 2026-05-19 at 6 46 08 PM" src="https://github.com/user-attachments/assets/10eb5f85-d426-4af0-ad19-71d138485c91" />
+
 
 <h3>6. Storage Usage Tracking</h3>
 
@@ -187,38 +157,7 @@ The system monitors storage consumption for each user and enforces quota-based t
 
 <hr>
 
-<h2>Main System Flows</h2>
 
-<table border="1" cellpadding="10">
-  <tr>
-    <th>Flow</th>
-    <th>Description</th>
-  </tr>
-  <tr>
-    <td>User Authentication</td>
-    <td>User validation and access control</td>
-  </tr>
-  <tr>
-    <td>File Upload</td>
-    <td>Store file metadata and versions</td>
-  </tr>
-  <tr>
-    <td>File Download</td>
-    <td>Retrieve files quickly</td>
-  </tr>
-  <tr>
-    <td>Sharing & Permissions</td>
-    <td>Grant controlled file access</td>
-  </tr>
-  <tr>
-    <td>Version Management</td>
-    <td>Maintain consistent file history</td>
-  </tr>
-  <tr>
-    <td>Storage Tracking</td>
-    <td>Monitor user storage usage</td>
-  </tr>
-</table>
 
 <hr>
 
@@ -260,55 +199,6 @@ The system monitors storage consumption for each user and enforces quota-based t
 
 <hr>
 
-<h2>Project Structure</h2>
-
-```bash
-src
- └── main
-      ├── java
-      │     ├── controller
-      │     ├── service
-      │     ├── repository
-      │     ├── entity
-      │     └── dto
-      │
-      └── resources
-            └── application.properties
-```
-
-<hr>
-
-<h2>Application Configuration</h2>
-
-<p>
-The project uses PostgreSQL database configuration through the 
-<code>application.properties</code> file.
-</p>
-
-<p><b>Example Configuration:</b></p>
-
-```properties
-spring.datasource.url=YOUR_DATABASE_URL
-spring.datasource.username=YOUR_USERNAME
-spring.datasource.password=YOUR_PASSWORD
-
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=false
-```
-
-<hr>
-
-<h2>Sample Functionalities Implemented</h2>
-
-<ul>
-  <li>Create User</li>
-  <li>Create Folder</li>
-  <li>Create File</li>
-  <li>Add File Versions</li>
-  <li>Share Files</li>
-  <li>View Share Permissions</li>
-  <li>Generate Storage Reports</li>
-</ul>
 
 <hr>
 
@@ -337,71 +227,6 @@ The application currently runs as a console-driven Spring Boot application where
 
 <hr>
 
-<h2>Screenshots</h2>
 
-<p>
-Add screenshots of:
-</p>
 
-<ul>
-  <li>User Creation</li>
-  <li>Folder Management</li>
-  <li>File Upload</li>
-  <li>Version Control</li>
-  <li>Permission Sharing</li>
-  <li>Storage Report</li>
-</ul>
 
-<p>
-Example:
-</p>
-
-```html
-<img src="screenshots/storage-report.png" width="800"/>
-```
-
-<hr>
-
-<h2>Future Enhancements</h2>
-
-<ul>
-  <li>JWT Authentication</li>
-  <li>REST API Integration</li>
-  <li>Frontend using React</li>
-  <li>AWS S3 File Storage</li>
-  <li>Distributed File Replication</li>
-  <li>File Compression</li>
-  <li>Role-Based Access Control</li>
-  <li>Real-Time Notifications</li>
-</ul>
-
-<hr>
-
-<h2>Learning Outcomes</h2>
-
-<ul>
-  <li>Spring Boot Backend Development</li>
-  <li>Database Design & Relationships</li>
-  <li>JPA & Hibernate ORM</li>
-  <li>File Metadata Management</li>
-  <li>Version Control Logic</li>
-  <li>Permission-Based Authorization</li>
-  <li>Storage Tracking Systems</li>
-</ul>
-
-<hr>
-
-<h2>Conclusion</h2>
-
-<p>
-This project demonstrates the backend architecture and core functionalities of a distributed cloud storage platform using Spring Boot. 
-It focuses on scalability concepts, secure file sharing, version management, and storage tracking while simulating real-world cloud storage operations.
-</p>
-
-<hr>
-
-<h2>Author</h2>
-
-<p>
-Developed using <b>Spring Boot</b> and <b>PostgreSQL</b> as part of a backend system design and database management project.
-</p>
